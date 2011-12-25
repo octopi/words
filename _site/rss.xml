@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Words</title>
+    <link>http://words.davidhu.me</link>
+    <atom:link href="http://words.davidhu.me/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Just some words by David Hu</description>
+    <language>en-us</language>
+    <pubDate>Sun, 25 Dec 2011 03:32:27 -0500</pubDate>
+    <lastBuildDate>Sun, 25 Dec 2011 03:32:27 -0500</lastBuildDate>
+
+    
+    <item>
+      <title>Hello Words</title>
+      <link>http://words.davidhu.me/hello-words</link>
+      <pubDate>Sat, 24 Dec 2011 23:49:49 -0500</pubDate>
+      <author>David Hu</author>
+      <description>&lt;p&gt;Yes, I&amp;#8217;m starting (another) blog. And there&amp;#8217;s nothing you can do about it.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve been meaning to start a blog for a while, and various things kept preventing me, but alas here we finally are. I hope that Words will be a little different than my previous &lt;a href='http://theblacktop.com'&gt;foray&lt;/a&gt; into personal blogging in a number of ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I hope to focus mainly on topics concerning the web, programming, CS, or any other issue relating &amp;#8220;technology&amp;#8221; or &amp;#8220;the industry.&amp;#8221; I guess it&amp;#8217;s broad by design.&lt;/li&gt;
+
+&lt;li&gt;I hope this won&amp;#8217;t devolve into a personal blog in the style of a LiveJournal; I have Facebook already. Expect the occasional funny picture though.&lt;/li&gt;
+
+&lt;li&gt;I hope to update this more often than I did my personal blog in the later years. I may eventually go back to updating that too.&lt;/li&gt;
+
+&lt;li&gt;I hope this will be a steady creative outlet. As I stopped writing daily posts for my last &lt;a href='http://bwog.com'&gt;foray&lt;/a&gt; into non-personal blogging and started assuming other duties, I started missing the writing, and I hope this will help me scratch the itch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the end though, I just hope for this to be seen as merely my words, and nothing more. They really carry little weight if you think about it.&lt;/p&gt;
+
+&lt;p&gt;But I hope you&amp;#8217;ll humor me and join me for the ride.&lt;/p&gt;</description>
+    </item>
+    
+
+  </channel> 
+</rss>

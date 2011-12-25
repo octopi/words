@@ -1,0 +1,28 @@
+--- 
+layout: default
+title: Index
+---
+
+
+{% for post in paginator.posts %}
+<div class="post">
+	<h2 class="post_title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	{{ post.content }}
+	<p class="meta">{{ post.date | date_to_long_string }} at {{ post.date || date:"%H:%M" }}<br />
+	<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></p>
+</div>
+{% endfor %}
+
+<p id="pagination">
+{% if paginator.previous_page %}
+{% if paginator.previous_page == 1 %}
+<a href="/">&larr; Previous posts</a>
+{% else %}
+<a href="/page{{ paginator.previous_page }}">&larr; Previous posts</a>
+{% endif %}
+{% endif %}
+
+{% if paginator.next_page %}
+<a href="/page{{ paginator.next_page }}">Next posts &rarr;</a>
+{% endif %}
+</p>

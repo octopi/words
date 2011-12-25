@@ -1,0 +1,127 @@
+body {
+	width:680px;
+	margin:0 auto;
+	margin-top:60px;
+	font-family: "Trebuchet MS", "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+	font-weight:50;
+	font-size:14px;
+	line-height:18px;
+}
+
+#title, .post_title, #subtitle {
+	font-family:'Habibi', 'Baskerville', Garamond, Times, serif;
+	margin:0;
+	padding:0;
+}
+
+#title {
+	font-size:6em;
+	font-weight:100;
+	float:left;
+	width:290px;
+	line-height:12px;
+	margin-top:28px;
+}
+
+#subtitle {
+	clear:both;
+	width:250px;
+	text-align:right;
+	position:relative;
+	top:10px;
+	right:8px;
+}
+
+#desc {
+	width:200px;
+	margin-left:290px;
+	padding-top:10px;
+	font-size:1em;
+}
+
+#main {
+	clear:both;
+	margin-top:60px;
+}
+
+a {
+	color:#39f;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#f00;
+}
+
+p, ul {
+	margin-bottom:10px; /* equal to line-height */
+}
+
+footer {
+	color:#aaa;
+	text-align:center;
+	margin-top:30px;
+}
+
+footer a {
+	color:#aaa;
+	text-decoration:underline;
+}
+
+
+/* POST STYLING */
+
+.post {
+	margin-top:40px;
+}
+
+.post_title {
+	font-size:2em;
+	font-weight:100;
+}
+
+.post_title a, #title a {
+	text-decoration:none;
+	color:#000;
+}
+
+.post_title a:hover {
+	color:#aaa;
+}
+
+.post h1 {
+	font-size:2em;
+}
+
+.post img {
+	margin:5px auto;
+	display:block;
+}
+
+.meta_sep {
+	width:16px;
+	height:1px;
+	border:none;
+	color:#aaa;
+	background-color:#aaa;
+}
+
+.meta {
+	color:#aaa;
+	text-align:center;
+	font-size:.9em;
+	margin:0;
+}
+
+.meta a {
+	color:#aaa;
+	text-decoration:underline;
+}
+
+.meta a:hover {
+	color:#ccc;
+}
+
+#pagination {
+	text-align:center;
+}

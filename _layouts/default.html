@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Words</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  	<header>
+    	<h1 id="title"><a href="/">Words</a></h1>
+    	<p id="desc">Hi, my name is David and these are just some of my words.</p>
+    	<p id="subtitle">by <a href="http://davidhu.me">David</a></p>
+	</header>
+	<div id="main">
+    {{ content }}
+	</div>
+	<footer>
+	<p><span style="font-size:2em;">&#9753;</span><br />
+	<a href="http://words.davidhu.me/rss.xml">RSS</a><br />
+	<a href="http://davidhu.me">David Hu</a>
+	</footer>
+	<script type="text/javascript">
+	    var disqus_shortname = 'wordsbydavid'; // required: replace example with your forum shortname
+
+	    (function () {
+	        var s = document.createElement('script'); s.async = true;
+	        s.type = 'text/javascript';
+	        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+	        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+	    }());
+	</script>
+  </body>
+</html>

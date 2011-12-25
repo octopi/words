@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> {{ page.title }} &raquo; Words</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  	<header>
+    	<h1 id="title"><a href="/">Words</a></h1>
+      <p id="desc">Hi, my name is David and these are just some of my words.</p>
+      <p id="subtitle">by <a href="http://davidhu.me">David</a></p>
+	</header>
+	<div id="main">
+    <div class="post">
+    <h2 class="post_title">{{ page.title }}</h2>
+    {{ content }}
+    <p class="meta">{{ page.date | date_to_long_string }} at {{ page.date || date:"%H:%M" }}</p>
+    </div>
+
+    {% if page.comments %}
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'wordsbydavid'; // required: replace example with your forum shortname
+        var disqus_identifier = '{{ page.url }}';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    {% endif %}
+	</div>
+	<footer>
+	<p><span style="font-size:2em;">&#9753;</span><br />
+  <a href="http://words.davidhu.me/rss.xml">RSS</a><br />
+	<a href="http://davidhu.me">David Hu</a>
+	</footer>
+  </body>
+</html>
