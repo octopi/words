@@ -18,6 +18,6 @@ mv ${1} $NEWNAME
 # execute and push
 jekyll
 git add _site/*
-git commit -am 'New post: ${2}'
+git commit -am 'New post: '${2}
 git push origin master
 exec ./tweet.sh 'I wrote some words: "'${2}'" http://words.davidhu.me/'$TITLE
